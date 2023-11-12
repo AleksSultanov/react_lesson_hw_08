@@ -30,11 +30,12 @@ export const DropdownList = styled.ul`
   display: ${(props) => (props.open ? 'block' : 'none')};
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 55%;
   width: 100%;
+  padding: 0;
 
   box-sizing: border-box;
-  background-color: white;
+  background-color: seashell;
   border: 1px solid #e3e8ec;
   border-radius: 4px ;
 
