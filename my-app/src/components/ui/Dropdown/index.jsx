@@ -12,7 +12,7 @@ import {
 export function Dropdown({ label, name, valueNameId, setValue, grid_column="1", disabled, dictionary }) {
   const [isOpen, setOpen] = useState(false);
 
-  function open() {
+  function open(item) {
     setOpen(true);
   }
   function close() {
@@ -31,6 +31,7 @@ export function Dropdown({ label, name, valueNameId, setValue, grid_column="1", 
       <DropdownButton
         onClick={open}
         disabled={disabled}
+        type="button"
       >
         {valueNameId.name || 'Не выбрано'}</DropdownButton>
       <DropdownList open={isOpen}>

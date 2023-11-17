@@ -24,6 +24,7 @@ export const DropdownButton = styled.button`
   background: url(${vector}) no-repeat;
   background-position: right 15px top 15px; 
   max-width: 350px;
+ 
 `;
 
 export const DropdownList = styled.ul`
