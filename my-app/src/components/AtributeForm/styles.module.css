@@ -1,0 +1,44 @@
+.box {
+  display: grid;
+  margin-top: 50px;
+  max-width: 860px;
+  padding: 20px 30px;  
+  background-color: white;
+  border-radius: 8px;
+
+}
+.rect {
+  height: 4px;
+  flex-shrink: 0;  
+  border-radius: 2px;
+  background: linear-gradient(90deg, #1173DA 0%, #A4E2FF 100%);
+
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  column-gap: 25px;
+}
+
+.title {
+  color: #424952;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  grid-column-start: 1;
+  text-align: left;
+}
+
+.aright {
+  grid-column-start: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.aleft {
+  grid-column-start: 2;
+  display: flex;
+  justify-content: left;
+}
